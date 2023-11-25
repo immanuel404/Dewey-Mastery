@@ -1,0 +1,98 @@
+
+/*================= ... ===================*/
+.totalScoreA {
+    position: absolute;
+    color: white;
+    top: 200px;
+    left: 50px;
+    text-align: center;
+}
+
+.static {
+    position: absolute;
+    top: 80px;
+    right: 50px;
+    text-align: center;
+    align-self: center;
+}
+.static #timer, .static #score {
+    width: 55px;
+    height: 55px;
+    margin: 0 auto;
+    padding: 10px 0px;
+    font-size: 16px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.static #score {
+    display: none;
+}
+.static button {
+    color: white;
+    background: black;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.task_a {
+    width: 100%;
+    min-height: 80vh;
+    background: url("../imgs/gamer.png");
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.task_a h1 {
+    color: purple;
+}
+
+.task_a .callnumbers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.task_a .callnumbers #drag-container, .task_a .callnumbers #answer {
+    width: 25%;
+    text-align: center;
+    padding: 0px 50px;
+}
+
+.task_a .callnumbers .draggable, .answer {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 2px;
+    padding: 5px 20px;
+    color: white;
+    background: purple;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+.task_a .callnumbers #answer {
+    display: none;
+}
+.task_a .callnumbers .answer {
+    color: purple;
+    background: white;
+}
+.task_a .callnumbers .draggable:hover {
+    cursor: pointer;
+}
+
+
+
+/*=============== MOBILE ===============*/
+@media (max-width: 915px) {
+    .task_a {
+        opacity: 0;
+    }
+    .totalScoreA {
+        opacity: 0;
+    }
+}
+/*=============== END OF -> MOBILE ===============*/

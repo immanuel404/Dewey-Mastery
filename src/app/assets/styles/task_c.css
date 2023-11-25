@@ -1,0 +1,54 @@
+/*================= ... ===================*/
+.totalScoreC {
+    position: absolute;
+    color: white;
+    top: 80px;
+    right: 50px;
+    text-align: center;
+}
+
+
+.task_c {
+    width: 100%;
+    min-height: 80vh;
+    background: url("../imgs/gamer.png");
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.task_c h1, .task_c h3 {
+    color: purple;
+}
+
+.task_c .carousel {
+    width: 100%;
+    height: contain;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.task_c p {
+    font-size: 22px;
+    padding: 15px;
+    margin: 15px 40px;
+    color: white;
+    background: purple;
+    border: 2px solid whitesmoke;
+    cursor: pointer;
+}
+
+
+
+/*=============== MOBILE ===============*/
+@media (max-width: 915px) {
+    .task_c {
+        opacity: 0;
+    }
+    .totalScoreC {
+        opacity: 0;
+    }
+}
+/*=============== END OF -> MOBILE ===============*/

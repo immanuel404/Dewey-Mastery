@@ -1,0 +1,27 @@
+
+/*=============== ALL MODALS ===============*/
+
+#addRegister h1, #addLogin h1 {
+    color: green;
+}
+
+.modal-header {
+    background: #CEDDCB;
+}
+
+#addRegister form p, #addLogin form p {
+    float: left;
+    font-size: 12px;
+}
+
+#addRegister form .mb-3, #addLogin form .mb-3 {
+    margin: 10px 0;
+}
+
+
+
+/*===============  -> MOBILE/TABLET ===============*/
+@media (max-width: 1180px) {
+
+}
+/*================= END OF MOBILE/TABLET ====================*/

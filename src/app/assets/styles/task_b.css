@@ -1,0 +1,114 @@
+
+/*================= ... ===================*/
+.totalScoreB {
+    position: absolute;
+    color: white;
+    top: 200px;
+    left: 50px;
+    text-align: center;
+}
+
+.static {
+    position: absolute;
+    top: 80px;
+    right: 50px;
+    text-align: center;
+    align-self: center;
+}
+.static #timer, .static #score {
+    width: 55px;
+    height: 55px;
+    margin: 0 auto;
+    padding: 10px 0px;
+    font-size: 16px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.static #score {
+    display: none;
+}
+.static button {
+    color: white;
+    background: black;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.task_b {
+    width: 100%;
+    min-height: 80vh;
+    background: url("../imgs/gamer.png");
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.task_b h1 {
+    color: purple;
+}
+
+.task_b .callnumbers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.task_b .callnumbers #drag-container {
+    /* width: 70%; */
+    text-wrap: nowrap;
+    text-align: center;
+    padding: 10px;
+}
+.task_b .callnumbers #non-drag-container {
+    width: fit-content;
+    text-align: center;
+    padding: 10px;
+}
+.task_b .callnumbers #answer {
+    display: none;
+}
+
+.task_b .callnumbers .draggable {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+    padding: 15px;
+    color: white;
+    background: purple;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+.task_b .callnumbers .non-draggable {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+    padding: 15px;
+    color: purple;
+    background: white;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+.task_b .callnumbers .answer {
+    color: purple;
+    background: white;
+}
+.task_b .callnumbers .draggable:hover {
+    cursor: pointer;
+}
+
+
+
+/*=============== MOBILE ===============*/
+@media (max-width: 915px) {
+    .task_b {
+        opacity: 0;
+    }
+    .totalScoreB {
+        opacity: 0;
+    }
+}
+/*=============== END OF -> MOBILE ===============*/
