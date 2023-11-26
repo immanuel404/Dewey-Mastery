@@ -5,6 +5,7 @@ import Signup from './components/Signup'
 import UserGuide from './components/UserGuide'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import ForMobile from './components/ForMobile'
 import Link from 'next/link'
 
 export default function Home() {
@@ -13,9 +14,10 @@ export default function Home() {
 
       <Bootstrap />
       <Navbar />
+      <ForMobile />
 
       <div className="home">
-
+      
         <div className="left">
             <h1>DEWEY DECIMAL SYSTEM</h1>
             <h5>Begin your journey towards Mastery!</h5>  

@@ -20,9 +20,9 @@ export default function _Slider() {
             question[0].textContent = "Find the category call number for: " + split_Description[1];
         }
         // remove loader
-        const loader : NodeListOf<HTMLElement> = document.querySelectorAll('.spinner-grow');
+        const loader : NodeListOf<HTMLElement> = document.querySelectorAll('.spinner-grow.text-light');
         loader[0].style.display = 'none';
-    }, [answer1]);
+    }, [answer1, answer2, answer3]);
 
 
     // onclick listener -> Level 1

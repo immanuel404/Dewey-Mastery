@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import DraggableContainer from './_Draggable';
 // import ScoreTotal from './_ScoreTotal';
+import ForMobile from '../components/ForMobile'
 import Bootstrap from '../components/xBootstrap'
 
 
@@ -52,12 +53,13 @@ export default async function Activity_A() {
         <>
             <Bootstrap />
             <Navbar />
+            <ForMobile />
 
             {/* <ScoreTotal /> */}
 
             <div className="task_a">
                 <h1>Replacing Books</h1>
-                <h5>Drag to Sort the call numbers in ascending order.</h5>
+                <h5>Drag Elements Vertically & Sort Call Numbers in Ascending Order.</h5>
 
                 <div className="callnumbers">
                     <DraggableContainer callNumbers={callNumbers} />

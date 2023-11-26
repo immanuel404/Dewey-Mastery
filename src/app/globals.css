@@ -116,6 +116,9 @@ a {
 p {
   margin-bottom: 0rem;
 }
+.forMobile {
+  display: none;
+}
 
 
 /*================= ... ===================*/
@@ -181,5 +184,19 @@ p {
   .home {
     opacity: 0;
   }
+  
+  .forMobile {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f0f0f0;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    opacity: 1!important;
+  }
+
 }
 /*=============== END OF -> MOBILE ===============*/

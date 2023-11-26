@@ -6,6 +6,7 @@ import Footer from '../components/Footer'
 import DraggableContainer from './_Draggable';
 // import ScoreTotal from './_ScoreTotal';
 import Bootstrap from '../components/xBootstrap'
+import ForMobile from '../components/ForMobile'
 
 
 // GET CALL NUMBERS
@@ -51,12 +52,13 @@ export default async function Activity_B() {
     <>
       <Bootstrap />
       <Navbar />
+      <ForMobile />
 
       {/* <ScoreTotal /> */}
 
       <div className="task_b">
         <h1>Identifying Areas</h1>
-        <h5>Drag descriptions vertically & match its corresponding call number.</h5>
+        <h5>Drag Descriptions Vertically to Match its Corresponding Call Number.</h5>
 
         <div className="callnumbers">
           <DraggableContainer callNumbers={callNumbers} />

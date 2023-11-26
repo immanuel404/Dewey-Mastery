@@ -10,13 +10,13 @@ export default function Signup() {
     const [password, setPassword] = useState('')
 
     const handleSubmit = async ()  => {
-        const data = { username, password };
+        // const data = { username, password };
         
-        axios.post('http://localhost/12DeweyMastery/signup.php', data)
-        .then(res => {
-            alert(res.data);
-            setUsername(""); setPassword("");
-        });
+        // axios.post('http://localhost/12DeweyMastery/signup.php', data)
+        // .then(res => {
+        //     alert(res.data);
+        //     setUsername(""); setPassword("");
+        // });
     }
 
   return (

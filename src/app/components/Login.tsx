@@ -10,20 +10,20 @@ export default function Login() {
     const [password, setPassword] = useState('')
 
     const handleSubmit = async ()  => {
-        const data = { username, password };
+        // const data = { username, password };
         
-        axios.post('http://localhost/12DeweyMastery/login.php', data)
-        .then(res => {
-            if (res.data.includes("Login Success!")) {
-                alert("Login Success! Welcome "+ username+ "!");
-                var output = res.data.split('=');
-                document.cookie = `LoggedIn=${output[1]}`;
-                setUsername(""); 
-                setPassword("");
-            } else {
-                alert(res.data);
-            }
-        });
+        // axios.post('http://localhost/12DeweyMastery/login.php', data)
+        // .then(res => {
+        //     if (res.data.includes("Login Success!")) {
+        //         alert("Login Success! Welcome "+ username+ "!");
+        //         var output = res.data.split('=');
+        //         document.cookie = `LoggedIn=${output[1]}`;
+        //         setUsername(""); 
+        //         setPassword("");
+        //     } else {
+        //         alert(res.data);
+        //     }
+        // });
     }
 
   return (
