@@ -198,5 +198,9 @@ p {
     opacity: 1!important;
   }
 
+  footer {
+    display: none;
+  }
+
 }
 /*=============== END OF -> MOBILE ===============*/
