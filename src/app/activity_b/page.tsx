@@ -58,7 +58,7 @@ export default async function Activity_B() {
 
       <div className="task_b">
         <h1>Identifying Areas</h1>
-        <h5>Match Descriptions With To Corresponding Call Number Classification!</h5>
+        <h5>Match Descriptions To Their Corresponding Call Number Classification!</h5>
 
         <div className="callnumbers">
           <DraggableContainer callNumbers={callNumbers} />
