@@ -20,7 +20,7 @@ export default function Activity_C() {
 
       <div className="task_c">
         <h1>Finding Call Numbers</h1>
-        <h5>Traverse the Dewey Decimal Hierarchy to Find the Correct Call Number.</h5>
+        <h5>Traverse the Dewey Decimal Hierarchy to Find the Correct Classification!</h5>
         <br />
         <Slider />
       </div>

@@ -59,7 +59,7 @@ export default async function Activity_A() {
 
             <div className="task_a">
                 <h1>Replacing Books</h1>
-                <h5>Drag Elements Vertically & Sort Call Numbers in Ascending Order.</h5>
+                <h5>Drag Elements Vertically To Sort Call Numbers in Ascending Order!</h5>
 
                 <div className="callnumbers">
                     <DraggableContainer callNumbers={callNumbers} />
