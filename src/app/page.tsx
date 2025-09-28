@@ -18,18 +18,18 @@ export default function Home() {
 
       <div className="home">
       
-        <div className="left">
-            <h1>DEWEY DECIMAL SYSTEM</h1>
-            <h5>Begin your journey towards Mastery!</h5>  
-            <div className="userButtons">
-              <Logout/> <Login/> <UserGuide/> <Signup/>
-            </div>
+        <div className="left p-4 mt-4">
+          <h1>DEWEY DECIMAL SYSTEM</h1>
+          <h5>Begin your journey towards Mastery!</h5>  
+          <div className="userButtons">
+            <Logout/> <Login/> <UserGuide/> <Signup/>
+          </div>
         </div>
 
         <div className="right">
-            <div><Link href="/activity_a"><button className="btn btn-secondary">Replacing Books</button></Link></div>
-            <div><Link href="/activity_b"><button className="btn btn-success">Identifying Areas</button></Link></div>
-            <div><Link href="/activity_c"><button className="btn btn-dark">Finding Call Numbers</button></Link></div>
+          <div><Link href="/activity_a"><button className="btn btn-secondary">Replacing Books</button></Link></div>
+          <div><Link href="/activity_b"><button className="btn btn-success">Identifying Areas</button></Link></div>
+          <div><Link href="/activity_c"><button className="btn btn-dark">Finding Call Numbers</button></Link></div>
         </div>
       </div>
 

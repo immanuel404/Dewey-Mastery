@@ -157,7 +157,7 @@ const _Draggable = ({ callNumbers } : CallNumberProps) => {
         <div className="static">
             <div id="timer" ref={timerRef}>1:30</div>
             <div id="score" ref={scoreRef}></div>
-            <button id="stopTimer" onClick={StopTimer}>Stop</button>
+            <button id="stopTimer" className="btn btn-dark btn-sm" onClick={StopTimer}>Stop</button>
         </div>
         
         <div id="drag-container">

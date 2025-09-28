@@ -10,9 +10,9 @@ export default function UserGuide() {
             <div className="modal-dialog modal-lg">
                 <div className="modal-content">
                     <div className="modal-header">
-                        <h1 className="modal-title fs-5" id="staticBackdropLabel">HELP - GUIDE</h1>
+                        <h1 className="modal-title fs-5 text-success" id="staticBackdropLabel">HELP - GUIDE</h1>
                         <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
+                    </div> 
                     <div className="modal-body" style={{textAlign: 'center'}}>
                         <h5><b>Here's the place to gain mastery of the Dewey Decimal System</b></h5>
                         <p>Engage with three primary tasks..</p><br />
