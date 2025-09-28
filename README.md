@@ -1,4 +1,4 @@
-[Live Demo](https://dewey-mastery.vercel.app/)
+[Demo Link](https://dewey-mastery.vercel.app/)
 
 ![](screenshot.png)
 
