@@ -58,7 +58,7 @@ export default async function Activity_A() {
             {/* <ScoreTotal /> */}
 
             <div className="task_a">
-                <h1>Replacing Books</h1>
+                <h1>Sorting Books</h1>
                 <h5>Drag Elements Vertically To Sort Call Numbers in Ascending Order!</h5>
 
                 <div className="callnumbers">

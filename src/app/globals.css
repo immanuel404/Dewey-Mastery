@@ -87,12 +87,12 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
 }
 
 a {
@@ -181,6 +181,7 @@ p {
 
 /*=============== MOBILE ===============*/
 @media (max-width: 915px) {
+  
   .home {
     opacity: 0;
   }
@@ -192,7 +193,7 @@ p {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #f0f0f0;
-    padding: 40px;
+    padding: 40px 20px;
     border-radius: 10px;
     text-align: center;
     opacity: 1!important;

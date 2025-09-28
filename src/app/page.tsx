@@ -27,7 +27,7 @@ export default function Home() {
         </div>
 
         <div className="right">
-          <div><Link href="/activity_a"><button className="btn btn-secondary">Replacing Books</button></Link></div>
+          <div><Link href="/activity_a"><button className="btn btn-secondary">Sorting Books</button></Link></div>
           <div><Link href="/activity_b"><button className="btn btn-success">Identifying Areas</button></Link></div>
           <div><Link href="/activity_c"><button className="btn btn-dark">Finding Call Numbers</button></Link></div>
         </div>
